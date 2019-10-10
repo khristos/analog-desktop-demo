@@ -1,0 +1,32 @@
+
+{{debug}}
+<ul class="mw-productGrid__wrapper" id="mw-productGrid__list">
+{{#items}}
+  <li class="col-md-3 col-sm-12 mw-productGrid__item">
+    <div class="mw-productTile--card">
+      <div class="mw-productTile__details">
+        <div class="mw-productTile__media">
+          <a href="#" class="mw-productTile__link" title="">
+            <img src="{{imageObject.imageUrl}}" alt="{{productName}}" class="mw-productTile__image">
+          </a>
+        </div>
+        <div class="mw-productTile__content">
+          <h2 class="mw-productTile__heading"><span class="mw-productTile__name">{{productName}}</span></h2>
+          <div class="mw-productTile__description">
+            {{{productDescription}}}
+          </div>
+          <hr class="mw-productTile__divider">
+        </div>
+        <div class="mw-productTile__info">
+          <span class="mw-productTile__unitPrice">{{toFixedDecimal productPrice}}</span>
+        </div>
+        <div class="mw-overlay"><span class="mw-overlay__icon"></span></div>
+      </div>
+
+      <div class="mw-productTileAto">
+        <button class="btn btn-primary mw-button mw-productTileAto__button" type="button" data-id="{{productID}}">Add to order<img src="./assets/svg/icons/icon--box-full_u1438_selected.svg" class="mw-button__icon mw-button__icon--right mw-button__icon--boxFull"></button>
+      </div>
+    </div>
+  </li>
+{{/items}}
+</ul>

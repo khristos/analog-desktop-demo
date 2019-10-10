@@ -1,0 +1,38 @@
+{{debug}}
+{{#each items}}
+    <div class="mw-orderDetails__cart">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 mw-orderDetails__thumbnails">
+                <a href="#" class="">
+                    <img src="./assets/img/products/img--thumb-02_u2520.jpg">
+                </a>
+                <h3>{{productName}}</h3>
+            </div>
+            <div class="col-md-2 col-sm-12 mw-orderDetails__avl">
+                <h3>Availability</h3>
+                <span>In Stock</span>
+            </div>
+            <div class="col-md-2 col-sm-12 mw-orderDetails__fulfilledBy">
+                <h3>Fulfilled by</h3>
+                <a href="{{vendorProductUrl}}">
+                    <img src="{{vendorLogo}}" alt="{{vendor}}">
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-12 mw-orderDetails__qty">
+                <h3>Quantity</h3>
+                <span>
+                    <input class="mw-input mw-productDetailsAto__qty" min="1" value="{{productQuantity}}" data-id="{{productID}}" placeholder="1" type="number">
+                </span>
+            </div>
+            <div class="col-md-2 col-sm-12 mw-orderDetails__unitPrices">
+                <h3>Unit Price</h3>
+                <span class="unitPrice">{{productPrice}}</span>
+            </div>
+            <div class="col-md-1 col-sm-12 mw-orderDetails__avl">
+                <button class="btn btn-primary mw-button mw-orderDetails__removeItem" data-id="{{productID}}" type="button">
+                    <img src="./assets/svg/icons/icon--remove.svg" class="mw-button__icon mw-button__icon--right mw-button__icon--boxFull" alt="remove">
+                </button>
+            </div>
+        </div>
+    </div>
+{{/each}}

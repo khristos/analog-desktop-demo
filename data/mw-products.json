@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "productID": "SwiftKit",
+      "productName": "Swift Kit",
+      "productDescription": "<p>Bluetooth enabled and battery powered plug-and-play development kit with sensor compatibilty.</p>",
+      "productUrl": "/en/measureware/products/SwiftKit.html",
+      "measurementType": ["gas"],
+      "productType": ["measurement platforms"],
+      "distributor": "Digikey",
+      "manufacturer": "Analog Devices",
+      "productPrice": 47.98,
+      "productQuantity": 1,
+      "vendorProductUrl": "https://digikey.com/SwiftKit",
+      "imageObject": {
+        "imageUrl": "http://127.0.0.1:3000/assets/img/products/p0.jpg",
+        "imageDescription": "Description of image."
+      }
+    },
+    {
+      "productID": "ProKit",
+      "productName": "Pro Kit",
+      "productDescription": "<p>Plug-and-play development kit with Arduino headers and host process development board.</p>",
+      "productUrl": "/en/measureware/products/SwiftKit.html",
+      "measurementType": ["humidity"],
+      "productType": ["prototyping kits"],
+      "manufacturer": "Analog Devices",
+      "productPrice": 74.50,
+      "productQuantity": 2,
+      "vendorProductUrl": "https://digikey.com/SwiftKit",
+      "imageObject": {
+        "imageUrl": "http://127.0.0.1:3000/assets/img/products/p1.jpg",
+        "imageDescription": "Description of image."
+      }
+    },
+    {
+      "productID": "ProKit2",
+      "productName": "Pro Kit2",
+      "productDescription": "<p>Plug-and-play development kit with Arduino headers and host process development board.</p>",
+      "productUrl": "/en/measureware/products/SwiftKit.html",
+      "measurementType": ["vibration","weight"],
+      "productType": ["prototyping kits","sensors"],
+      "manufacturer": "Analog Devices",
+      "productPrice": 745.50,
+      "productQuantity": 2,
+      "vendorProductUrl": "https://digikey.com/SwiftKit",
+      "imageObject": {
+        "imageUrl": "http://127.0.0.1:3000/assets/img/products/p1.jpg",
+        "imageDescription": "Description of image."
+      }
+    }
+  ]
+}
